@@ -27,8 +27,8 @@ def puntosTotales(tablaFinal, numRonda, userMax):
         print(f"Ronda {numRonda}:")
     print("Jugador  ", " Kills  ", " Asistencias  ", " Muertes  ", " MVPs  ", " Puntos  ")
     print("-"*60)
-    for user, stats in tablaOrdenada:
-        print(f"{user}       {stats['kills']}           {stats['assists']}           {stats['deaths']}          {stats['mvps']}        {stats['puntos']}")
+    for user, datos in tablaOrdenada:
+        print(f"{user}       {datos['kills']}           {datos['assists']}           {datos['deaths']}          {datos['mvps']}        {datos['puntos']}")
     print("-"*18)
     print(f"MVP RONDA {numRonda}: {userMax}")
     print("-"*60)
